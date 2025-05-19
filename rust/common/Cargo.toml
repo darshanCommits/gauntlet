@@ -1,3 +1,4 @@
+cargo-features = ["edition2024"]
 [package]
 name = "gauntlet-common"
 edition.workspace = true
