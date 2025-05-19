@@ -1,3 +1,4 @@
+cargo-features = ["edition2024"]
 [package]
 name = "gauntlet"
 edition.workspace = true
@@ -19,7 +20,7 @@ members = [
     "rust/manifest_schema",
 ]
 [workspace.package]
-edition = "2021"
+edition = "2024"
 
 [workspace.dependencies]
 # iced
